@@ -2,7 +2,9 @@ source 'https://rubygems.org'
 
 gem 'bourbon'
 gem 'guard'
+gem 'guard-haml'
 gem 'guard-sass'
+gem 'guard-shell'
 gem 'guard-coffeescript'
 
 gem 'rb-fsevent', require: false if RUBY_PLATFORM =~ /darwin/i # mac os x
